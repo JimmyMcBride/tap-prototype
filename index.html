@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Find the best Artisan goods on the web here!">
+  <meta name="author" content="Jimmy McBride">
+  <meta name="generator" content="Hugo 0.75.1">
+  <title>Carousel Template · Bootstrap</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+    integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
+    crossorigin="anonymous">
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+    integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+    crossorigin="anonymous"></script>
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav
+      class="navbar navbar-expand-md navbar-dark fixed-top"
+      style="background: #222;">
+      <div class="container-fluid">
+        <a class="navbar-brand nav-item nav-link"
+          href="#">The Artisans Platform</a>
+        <button class="navbar-toggler" type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"
+          id="navbarCollapse">
+
+          <ul class="navbar-nav ml-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex">
+            <input class="form-control mr-2" type="search"
+              placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary"
+              type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide mx-auto"
+      data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0"
+          class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1">
+        </li>
+        <li data-target="#myCarousel" data-slide-to="2">
+        </li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="text-center img-wrapper">
+            <img
+              src="https://cdn.pixabay.com/photo/2016/11/29/01/25/adult-1866533_960_720.jpg"
+              alt="artisan" style="height: auto;">
+          </div>
+
+          <div class="container">
+            <div class="carousel-caption text-center px-3"
+              style="background: rgba(0, 0, 0, 0.6)">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in,
+                egestas eget quam. Donec id elit non mi
+                porta gravida at eget metus. Nullam id dolor
+                id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-info" href="#"
+                  role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="text-center img-wrapper">
+            <img
+              src="https://cdn.pixabay.com/photo/2020/02/19/21/49/workshop-4863393_960_720.jpg"
+              alt="artisan" style="height: auto;">
+          </div>
+
+          <div class="container">
+            <div class="carousel-caption text-center px-3"
+              style="background: rgba(0, 0, 0, 0.6)">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in,
+                egestas eget quam. Donec id elit non mi
+                porta gravida at eget metus. Nullam id dolor
+                id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-info" href="#"
+                  role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="text-center img-wrapper">
+            <img
+              src="https://cdn.pixabay.com/photo/2020/02/19/21/49/workshop-4863393_960_720.jpg"
+              alt="artisan" style="height: auto;">
+          </div>
+
+          <div class="container">
+            <div class="carousel-caption text-center px-3"
+              style="background: rgba(0, 0, 0, 0.6)">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in,
+                egestas eget quam. Donec id elit non mi
+                porta gravida at eget metus. Nullam id dolor
+                id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-info" href="#"
+                  role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel"
+        role="button" data-slide="prev">
+        <div class="arrow-wrapper">
+          <span class="carousel-control-prev-icon"
+            aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </div>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel"
+        role="button" data-slide="next">
+        <div class="arrow-wrapper">
+          <span class="carousel-control-next-icon"
+            aria-hidden="true"></span>
+        </div>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img
+            src="https://randomuser.me/api/portraits/men/18.jpg"
+            alt="user"
+            style="height: 140px; width: 140px; border-radius: 50%;">
+
+          <h2>John Smith</h2>
+          <h5>Artisan Furniture</h5>
+          <p>Donec sed odio dui. Etiam porta sem malesuada
+            magna mollis euismod. Nullam id dolor id nibh
+            ultricies vehicula ut id elit. Morbi leo risus,
+            porta ac consectetur ac, vestibulum at eros.
+            Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-secondary" href="#"
+              role="button">View Shop &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img
+            src="https://randomuser.me/api/portraits/men/79.jpg"
+            alt="user"
+            style="height: 140px; width: 140px; border-radius: 50%;">
+
+          <h2>Dan Hough</h2>
+          <h5>Artisan Carpenter</h5>
+          <p>Duis mollis, est non commodo luctus, nisi erat
+            porttitor ligula, eget lacinia odio sem nec
+            elit. Cras mattis consectetur purus sit amet
+            fermentum. Fusce dapibus, tellus ac cursus
+            commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-secondary" href="#"
+              role="button">View Shop &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img
+            src="https://randomuser.me/api/portraits/women/65.jpg"
+            alt="user"
+            style="height: 140px; width: 140px; border-radius: 50%;">
+
+          <h2>Jules McKenly</h2>
+          <h5>Artisan Jeweler</h5>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac
+            facilisis in, egestas eget quam. Vestibulum id
+            ligula porta felis euismod semper. Fusce
+            dapibus, tellus ac cursus commodo, tortor mauris
+            condimentum nibh, ut fermentum massa justo sit
+            amet risus.</p>
+          <p><a class="btn btn-secondary" href="#"
+              role="button">View Shop &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette
+            heading. <span class="text-muted">It’ll blow
+              your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus
+            auctor fringilla. Vestibulum id ligula porta
+            felis euismod semper. Praesent commodo cursus
+            magna, vel scelerisque nisl consectetur. Fusce
+            dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 center">
+          <!-- <svg
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500" height="500"
+            xmlns="http://www.w3.org/2000/svg" role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" />
+            <text x="50%" y="50%" fill="#aaa"
+              dy=".3em">500x500</text>
+          </svg> -->
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.designswan.com%2F2014%2F05%2FswimmingSculpture%2F2.jpg&f=1&nofb=1"
+            alt="preview"
+            style="max-width: 296px; max-width: 296px;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Oh yeah, it’s that
+            good. <span class="text-muted">See for
+              yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus
+            auctor fringilla. Vestibulum id ligula porta
+            felis euismod semper. Praesent commodo cursus
+            magna, vel scelerisque nisl consectetur. Fusce
+            dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 order-md-1 center">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcfileonline.org%2Fwp-content%2Fuploads%2F2015%2F09%2F2-click-fujikasa-exhibition-cfile-contemporary-ceramic-art.jpg&f=1&nofb=1"
+            alt="preview"
+            style="max-width: 296px; max-width: 296px;">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this
+            one. <span class="text-muted">Checkmate.</span>
+          </h2>
+          <p class="lead">Donec ullamcorper nulla non metus
+            auctor fringilla. Vestibulum id ligula porta
+            felis euismod semper. Praesent commodo cursus
+            magna, vel scelerisque nisl consectetur. Fusce
+            dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 center">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB14QD9QpXXXXbRXVXXq6xXFXXXg%2FSculpture-Statue-Silence-is-Golden-Abstract-Crafts-Creative-Office-Living-Room-Decoration.jpg&f=1&nofb=1"
+            alt="preview"
+            style="max-width: 296px; max-width: 296px;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer
+      class="container d-flex justify-content-between">
+      <p class="ml-2">&copy; 2019-2020 The Artisans
+        Platform, LLC
+        &middot; <a href="#">Privacy</a> &middot; <a
+          href="#">Terms</a></p>
+      <p class="mr-2"><a href="#">Back to top</a></p>
+    </footer>
+  </main>
+
+</body>
+
+</html>
